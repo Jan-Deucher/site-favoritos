@@ -1,0 +1,244 @@
+
+
+body{
+background-color: rgb(212, 209, 212);
+
+
+}
+.container{
+background: rgb(62,31,71);
+background: linear-gradient(170deg, rgba(62,31,71,1) 36%, rgba(0,100,102,1) 100%);
+
+
+}
+header{
+ margin-top: 2em;
+ padding: 5px;
+}
+
+
+
+#logo{
+  width: 3%;
+  float: left;
+  margin-top: -12%;
+  margin-left: 7.3%;
+ 
+}
+
+#name-page{
+  color: #fdffa4;
+  font-weight: bold;
+  font-family: 'Baloo Tammudu 2', cursive;
+  margin-top: 5%;
+  margin-left: 1%;
+}
+.my-custom-theme  .tooltipster-content {
+	border-radius: 5px; 
+	border: 2px solid rgba(0,100,102,1);
+	background: rgba(0,100,102,1);
+	color: #fdffa4;
+} 
+
+
+
+
+
+
+.menu{
+  float: right;
+  width: 37%;
+  margin-right: 35%;
+  margin-top: -10%;
+  border-radius: 8px;
+  background-color: #6e256e;
+
+}
+
+#lista .opcao{
+  color: #fdffa4;
+}
+
+#lista .opcao:hover{
+  color:#e9e9dc;;
+}
+
+nav .input-field label i {
+  color: #fdffa4;
+}
+/*busca*/
+.input-field input[type=search]:focus:not(.browser-default){
+  background-color: #fdffa4;
+  border-radius: 8px;
+}
+
+#busca{
+  width: 30%;
+  background-color: #6e256e;
+  float: right;
+  margin-right: 1em;
+  margin-top: 4%;
+  border-radius: 8px;
+
+}
+
+.login-page, #email, #password, .login {
+  background-color:#6e256e;
+  color: #e9e9dc;
+}
+
+.login-page{
+  width: 30%;
+  padding: 2%;
+  border-radius: 3px;
+  margin-left: 18%;
+  display: none;
+  position:absolute;
+  z-index:100;
+}
+
+.criar-conta{
+  background-color:#6e256e;
+  width: 30%;
+  padding: 2%;
+  border-radius: 3px;
+  margin-left: 18%;
+  display: none;
+  position:absolute;
+  z-index:100;
+}
+#email-criar, #password-criar{
+ color: #e9e9dc;
+}
+
+#botao-entrar, #botao-criar, #botao-validar{
+  background-color: black;
+}
+
+label, #label-tags{
+  font-size: 16px;
+  color: #fdffa4;
+  text-align: center;
+  margin-top: auto;
+  padding: 1em;
+}
+
+#input-tags, .selectize-input, .input-active, .selectize-dropdown, .selectize-input, .selectize-input input {
+  background-color: #6e256e;
+  color: #fdffa4;
+}
+
+.selectize-control.multi .selectize-input [data-value]{
+    background-color: rgba(0,100,102,1);
+    background-image: linear-gradient(to bottom, rgba(0,100,102,1),  #6e256e);
+    background-repeat: repeat-x;
+}
+
+
+
+.quadro-vazio{
+    display: inline-block;
+    
+}
+
+.img-vazio{
+    margin-top: 1em;
+    width: 154px;
+    height: 315px;
+    margin-left: 3em; 
+    opacity: 70%;
+}
+
+#texto-campo-vazio, #favorito {
+  display: inline-block;
+  position: relative;
+}
+
+#texto-campo-vazio figcaption {
+ position: absolute; 
+  top: 45%;
+  right: 25px;
+  font-size: 12px;
+  color: #fffffff8;
+  background-color: #002c49;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.favorite{
+  margin-left: 30%;
+}
+
+#icon_prefix{
+  color: #e9e9dc;
+}
+#recente{
+  text-align: center;
+  color: #fdffa4;
+  background-color:#6e256e8f;
+  padding: 0.5%;
+  box-shadow: 1px 1px 1px 1px rgb(36, 35, 35);
+  border-radius: 5px;
+
+}
+.row .col.s2{
+  margin-left: 1em;
+  margin-right: 1em;
+  
+}
+
+.slick-prev{
+  margin-left: 2.5%;
+}
+
+.slick-next{
+  margin-right: 2.5%;
+}
+
+.card-content{
+  background-color: #fdffa4;
+}
+
+
+.page-footer{
+    background: rgb(62,31,71);
+    background: linear-gradient(360deg, rgba(62,31,71,1) 6%, rgba(0,100,102,1) 100%);
+  
+}
+
+
+#copy{
+  font-size: 10px;
+}
+
+.centered{
+ 
+  color: #fdffa4;
+}
+
+#titulo-favorito{
+  color: #fdffa4;
+  text-align: center;
+  margin-left: 2em;
+ 
+}
+
+a {
+  color: #010508;
+}
+
+.collection{
+  margin-left: 32%;
+  width: 30%;
+  margin-top: 10%;
+  position: fixed;
+  z-index: 100;
+  display: none;
+}
+
+.collection-item.avatar {
+  background-color: #6e256eef;
+  border-bottom: 1px solid #432222;
+  color:#fdffa4;
+
+}
