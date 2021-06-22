@@ -1,0 +1,23 @@
+$(".botao-adicionar").click(function(){
+    move_card(this)
+});
+
+function move_card(e){
+    let card = $(e).parent().parent()
+    let card_topo = $('.quadro-vazio1');
+    card.fadeOut(500);
+    $(card).animate({ 
+       down: card_topo.offset().down,         
+       right: card_topo.offset().right,
+    },500, function() {
+        $(this).remove()
+        add_novo_card()
+    });
+}    
+
+function add_novo_card(){
+    let card = $('.card-top').clone()
+    $(card).removeClass('card-top')
+    $('.main-top').append(card);
+    
+}
