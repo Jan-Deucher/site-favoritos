@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../slick/slick.css"/>
+    <link rel="stylesheet" href="../slick/slick-theme.css"/> 
+    <link rel="stylesheet" href="../materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/tooltipster.bundle.min.css">
+    <link rel="stylesheet" href="../css/selectize.default.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+  <header class="container">
+    <nav id="busca">
+      <div class="nav-wrapper">
+        <form>
+          <div class="input-field busca">
+            <input id="search" type="search" required>
+            <label class="label-icon" id="search" for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons">close</i>
+          </div>
+        </form>
+      </div>
+    </nav>
+    <a href="../html/index.html" class="tooltip" title="Home"><h1 id="name-page">FaVHere</h1></a>
+      <img id="logo" src="../img/like(1).png">
+
+    <nav class="menu">
+			<ul id="lista">
+				<li><a class= "opcao"id="botao-login" href="#"> <i class="material-icons left">account_circle</i> Login</a></li>
+				
+				<li><a class= "opcao" href="../html/lista.html"><i class="material-icons left">check_circle</i>Criar lista</a></li>
+
+				<li><a class= "opcao" href="..//html/biblioteca.html"><i class="material-icons left">loupe</i>Biblioteca</a></li>
+			</ul>
+		</nav>
+  </header>
+
+  <div class="container">
+    <div class="login-page">
+        <div class="row login">
+          <div class="input-field col s12 login">
+            <input id="email" type="email" class="validate">
+            <label for="email">seu e-mail</label>
+          </div>
+        </div>
+          <div class="row login">
+            <div class="input-field col s12 login">
+              <input id="password" type="password" class="validate">
+              <label for="password">sua senha</label>
+            </div>
+          </div>
+          <div class="row login">
+            <a class="waves-effect waves-light btn-small" id="botao-entrar">entrar</a>
+            </br> <a href="#" class="text-login">Esqueceu a senha?</a> 
+            </br> <p class="text-login">Ainda não é registrado?</p> 
+            <a class="waves-effect waves-light btn-small" id="botao-criar">criar conta</a>
+          </div>
+    </div>
+    
+    <div class="criar-conta">
+      <div class="row nova-conta">
+        <div class="input-field col s12 conta">
+          <input id="email-criar" type="email" class="validate">
+          <label for="email-criar">seu e-mail</label>
+        </div>
+      </div>
+        <div class="row nova-conta">
+          <div class="input-field col s12 conta">
+            <input id="password-criar" type="password" class="validate">
+            <label for="password-criar">sua senha</label>
+          </div>
+        </div>
+        <div class="row nova-conta">
+          <a class="waves-effect waves-light btn-small" id="botao-validar">criar minha conta</a>
+        </br> <a href="#botao-login" id="sair-criar">sair</a> 
+        </div>
+  </div>
+
+    <div class="main-top">
+    <div id="tags">
+      <label for="input-tags" id="label-tags">Minhas Tags</label>
+      <input type="text" id="input-tags">
+    </div>
+        <figcaption id="texto-campo-vazio" class="card-top">
+            <div class="quadro-vazio1">
+                <img class="img-vazio" src="../img/neon2.jpg" alt="">
+                <figcaption class="caption">Pré-selecionados aqui</figcaption>
+            </div>
+        </figcaption>
+    </div>
+
+      <h4 id="recente">Recomendados</h4>
+    <div data-slick='{"slidesToShow": 4, "slidesToScroll":1}' class="row conteudo"> 
+      <div class="col s2">
+        <div class="card" id="card">
+          <div class="card-image">
+            <img src="../img/fundo-preto1.jpg">
+            <span class="card-title">Card Title</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light black botao-adicionar">
+                <i class="material-icons">favorite_border</i></a>
+          </div>
+          <div class="card-content">
+            <p>1</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s2">
+        <div class="card">
+          <div class="card-image">
+            <img src="../img/fundo-preto1.jpg">
+            <span class="card-title">Card Title</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light black botao-adicionar">
+                <i class="material-icons">favorite_border</i></a>
+          </div>
+          <div class="card-content">
+            <p>2</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s2">
+        <div class="card">
+          <div class="card-image">
+            <img src="../img/fundo-preto1.jpg">
+            <span class="card-title">Card Title</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light black botao-adicionar">
+                <i class="material-icons">favorite_border</i></a>
+          </div>
+          <div class="card-content">
+            <p>3</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s2">
+        <div class="card">
+          <div class="card-image">
+            <img src="../img/fundo-preto1.jpg">
+            <span class="card-title">Card Title</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light black botao-adicionar">
+                <i class="material-icons">favorite_border</i></a>
+          </div>
+          <div class="card-content">
+            <p>4</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s2">
+        <div class="card final">
+          <div class="card-image">
+            <img src="../img/fundo-preto1.jpg">
+            <span class="card-title">Card Title</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light black botao-adicionar">
+                <i class="material-icons">favorite_border</i></a>
+          </div>
+          <div class="card-content">
+            <p>5.</p>
+          </div> 
+        </div>
+      </div>
+    </div>
+  
+      <footer class="page-footer">
+              <h6 class="white-text center">FaVHere Site</h6>
+              <h6 class="grey-text text-lighten-4 center" id="copy">© 2020 Todos os direitos reservados</h6></br>
+      </footer>
+  </div>
+      <script src="../js/jquery.js"></script>
+      <script src="../materialize/js/materialize.min.js"></script>
+      <script src="../slick/slick.min.js" ></script>
+      <script src="../js/slider.js"></script>
+      <script src="../js/tooltipster.bundle.min.js"></script>
+      <script src="..//js/selectize.js"></script>
+      <script src="../js/main.js"></script>  
+      <script src="../js/lista.js"></script>
+     
+
+</body>
+</html>

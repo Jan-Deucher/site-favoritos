@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../slick/slick.css"/>
+    <link rel="stylesheet" href="../slick/slick-theme.css"/> 
+    <link rel="stylesheet" href="../materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/tooltipster.bundle.min.css">
+    <link rel="stylesheet" href="../css/selectize.default.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+  <header class="container">
+    <nav id="busca">
+      <div class="nav-wrapper">
+        <form>
+          <div class="input-field busca">
+            <input id="search" type="search" required>
+            <label class="label-icon" id="search" for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons">close</i>
+          </div>
+        </form>
+      </div>
+    </nav>
+    <a href="../html/index.html" class="tooltip" title="Home"><h1 id="name-page">FaVHere</h1></a>
+      <img id="logo" src="../img/like(1).png">
+
+    <nav class="menu">
+			<ul id="lista">
+				<li><a class= "opcao"id="botao-login" href="#"> <i class="material-icons left">account_circle</i> Login</a></li>
+        <li><a class= "opcao" href="..//html/biblioteca.html"><i class="material-icons left">loupe</i>Biblioteca</a></li>
+			</ul>
+		</nav>
+  </header>
+
+  <div class="container">
+    <div class="login-page">
+        <div class="row login">
+          <div class="input-field col s12 login">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+          <div class="row login">
+            <div class="input-field col s12 login">
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+          </div>
+          <div class="row login">
+            <a class="waves-effect waves-light btn-small" id="botao-entrar">entrar</a>
+            </br> <a href="#" class="text-login">Esqueceu a senha?</a> 
+            </br> <p class="text-login">Ainda não é registrado?</p> 
+            <a class="waves-effect waves-light btn-small" id="botao-criar">criar conta</a>
+          </div>
+    </div>
+    
+    <div class="criar-conta">
+      <div class="row nova-conta">
+        <div class="input-field col s12 conta">
+          <input id="email-criar" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+        <div class="row nova-conta">
+          <div class="input-field col s12 conta">
+            <input id="password-criar" type="password" class="validate">
+            <label for="password">Password</label>
+          </div>
+        </div>
+        <div class="row nova-conta">
+          <a class="waves-effect waves-light btn-small" id="botao-validar">criar minha conta</a>
+        </br> <a href="#botao-login" id="sair-criar">sair</a> 
+        </div>
+  </div>
+
+  <div class="main-top">
+    <div clas="favorite">
+      <div class="row favorite">
+        <div class="input-field col s6 center">
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Criar lista de favoritos - nome:</label>
+          <a class="btn-floating waves-effect waves-light black botao-favorito">
+            <i class="material-icons">add</i></a>
+        </div>
+    </div>
+  </div>
+    <div id="favorito">
+        <div class="tabela-favorito">
+            <h3 id="titulo-favorito">Meus Favoritos</h3></br>
+            <table class="striped centered responsive-table">
+              <thead>
+                  <tr>
+                      <th>Lista</th>
+                      <th>Adicionar conteúdo</th>
+                      <th>Remover</th>
+                  </tr>
+              </thead>
+              <tbody>
+               
+              </tbody>
+          </table>
+        </div>
+    </div>
+  </div>
+    
+  
+  
+    <footer class="page-footer">
+            <h6 class="white-text center">FaVHere Site</h6>
+            <h6 class="grey-text text-lighten-4 center" id="copy">© 2020 Todos os direitos reservados</h6></br>
+    </footer>
+  </div> 
+
+    <script src="../js/jquery.js"></script>
+    <script src="../materialize/js/materialize.min.js"></script>
+    <script src="../slick/slick.min.js" ></script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/tooltipster.bundle.min.js"></script>
+    <script src="..//js/selectize.js"></script>
+    <script src="../js/main.js"></script>  
+    <script src="../js/lista.js"></script>
+
+</body>
+</html>
